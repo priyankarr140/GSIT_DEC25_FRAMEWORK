@@ -1,0 +1,37 @@
+package pageObjects;
+import org.openqa.selenium.*;
+public class LoginPage {
+	WebDriver driver;
+	By signUpAndInBtn=By.xpath("//*[text()='Sign In / Sign Up']");
+	By signInBtn=By.xpath("//*[text()='Login']");
+	By email=By.id("input-Email");
+	By password=By.id("input-Password");
+	By submitBtn=By.xpath("//*[@type='submit']");
+	public LoginPage(WebDriver driver)
+	{
+		this.driver=driver;
+	}
+	
+	public WebElement getSignUpAndInBtn() {
+		return driver.findElement(signUpAndInBtn);
+	}
+
+	public WebElement getSignInBtn() {
+		return driver.findElement(this.signInBtn);
+	}
+
+	public WebElement getEmail() {
+		return driver.findElement(this.email);
+	}
+
+	public WebElement getPassword() {
+		return driver.findElement(this.password);
+	}
+
+	public WebElement getSubmitBtn() {
+		return driver.findElement(this.submitBtn);
+	}
+
+	
+
+}

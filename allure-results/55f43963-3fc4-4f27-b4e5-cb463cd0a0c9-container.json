@@ -1,0 +1,1 @@
+{"uuid":"55f43963-3fc4-4f27-b4e5-cb463cd0a0c9","name":"Scenario: login via email and password","children":["e28c1a7c-0150-44f1-a61e-8333e2b92c0a"],"befores":[{"name":"hooks.ScenarioHook.setup()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1775228540154,"stop":1775228541891}],"afters":[],"start":1775228540152,"stop":1775228562368}

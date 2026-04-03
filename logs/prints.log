@@ -1,0 +1,3 @@
+22:09:37.384 [main] DEBUG stepDefinations.ValidateFilterByPriceStep - PRICE FILTER FOR Below ₹60 is working
+22:09:53.413 [main] DEBUG stepDefinations.ValidateFilterByPriceStep - PRICE FILTER FOR ₹60 - ₹70 is working
+22:10:09.040 [main] DEBUG stepDefinations.ValidateFilterByPriceStep - PRICE FILTER FOR Above ₹70 is working
