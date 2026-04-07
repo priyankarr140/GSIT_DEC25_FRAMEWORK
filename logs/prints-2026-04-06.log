@@ -1,0 +1,5 @@
+21:32:05.148 [TestNG-PoolService-0] DEBUG stepDefinations.A_LoginStep - User is successfully logged in
+21:32:12.506 [TestNG-PoolService-4] DEBUG stepDefinations.C_AddToCartStep - clear filter is applied
+21:32:15.456 [TestNG-PoolService-3] DEBUG stepDefinations.B_ValidateFilterByPriceStep - PRICE FILTER FOR Above ?70 is working
+21:32:15.676 [TestNG-PoolService-2] DEBUG stepDefinations.B_ValidateFilterByPriceStep - PRICE FILTER FOR ?60 - ?70 is working
+21:32:16.876 [TestNG-PoolService-1] DEBUG stepDefinations.B_ValidateFilterByPriceStep - PRICE FILTER FOR Below ?60 is working

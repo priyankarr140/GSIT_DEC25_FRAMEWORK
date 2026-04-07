@@ -7,6 +7,7 @@ public class LoginPage {
 	By email=By.id("input-Email");
 	By password=By.id("input-Password");
 	By submitBtn=By.xpath("//*[@type='submit']");
+	By loginText=By.xpath("(//div[@class='relative'])[3]");
 	public LoginPage(WebDriver driver)
 	{
 		this.driver=driver;
@@ -30,6 +31,9 @@ public class LoginPage {
 
 	public WebElement getSubmitBtn() {
 		return driver.findElement(this.submitBtn);
+	}
+	public WebElement getLoginText() {
+		return driver.findElement(this.loginText);
 	}
 
 	

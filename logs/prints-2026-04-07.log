@@ -1,0 +1,5 @@
+22:20:01.987 [TestNG-PoolService-1] DEBUG stepDefinations.B_ValidateFilterByPriceStep - PRICE FILTER FOR Below ?60 is working
+22:20:03.165 [TestNG-PoolService-2] DEBUG stepDefinations.B_ValidateFilterByPriceStep - PRICE FILTER FOR ?60 - ?70 is working
+22:20:10.629 [TestNG-PoolService-4] DEBUG stepDefinations.C_AddToCartStep - item added to cart
+22:20:13.914 [TestNG-PoolService-4] DEBUG stepDefinations.C_AddToCartStep - CORRECT ITEM GOT ADDED TO CART 
+22:20:13.977 [TestNG-PoolService-4] DEBUG stepDefinations.C_AddToCartStep - CORRECT QUANTITY GOT ADDED TO CART 
